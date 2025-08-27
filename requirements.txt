@@ -1,0 +1,6 @@
+pandas==2.1.0       # For data manipulation and cleaning
+numpy==1.26.0       # For numerical operations
+matplotlib==3.8.0   # For plotting charts
+seaborn==0.12.2     # For advanced visualizations
+scipy==1.11.0       # For statistics, e.g., z-score
+jupyter==1.0.0      # To run notebooks
