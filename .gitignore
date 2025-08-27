@@ -3,21 +3,35 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-env/
+*.ipynb_checkpoints
+
+# Jupyter
+*.nbconvert.ipynb
+
+# Environment
+.env
 venv/
-*.env
+env/
+.conda/
+.anaconda/
+.pyenv-virtualenv/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-
-
-# IDE / Editor files
+# VS Code
 .vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
 
-# Logs and temp files
+# System files
+.DS_Store
+Thumbs.db
 *.log
-*.tmp
+
+# Personal files (Windows)
+AppData/
+Desktop/
+Documents/
+Downloads/
+OneDrive/
+Music/
+Pictures/
+Videos/
+*.mdf
+*.ldf
